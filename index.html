@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .holder{
+            outline: 2px solid black;
+            display: flex;
+            width: 150px;
+            flex-wrap: wrap;
+        }
+        .item{
+            width: 75px;
+            background-color: aqua;
+        }
+        .first{
+            flex-grow: 2;
+        }
+        .fifth{
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="holder">
+        <div class="item first">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item fifth">5</div>
+    </div>
+</body>
+</html>
